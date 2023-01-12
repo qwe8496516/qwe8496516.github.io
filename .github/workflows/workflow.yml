@@ -3,11 +3,16 @@ on:
   push: 
 
 jobs:
-  - runs-on: ubuntu-latest
+  runs-on: ubuntu-latest
   steps:
     - name: Checkout repository code 
       uses: action/checkout@v2
 
+    - name: Run a one-line script
+      run: echo Hello World!
 
+    - name: Run a multi-line script
+      run: echo other actions to build
+           echo Hello World!
 
        
