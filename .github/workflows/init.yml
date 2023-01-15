@@ -15,10 +15,10 @@ jobs:
        
       - uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '12.x'
       - run: npm install -g bats
       - run: bats -v
-      
+
       - name: Installing Dependencies
         run: yarn install
       
