@@ -18,3 +18,12 @@ jobs:
           node-version: '14'
       - run: npm install -g bats
       - run: bats -v
+      
+      - name: Installing Dependencies
+        run: yarn install
+      
+      - name: Running Lint
+        run: yarn lint
+      
+      - name: Running Test
+        run: yarn test
