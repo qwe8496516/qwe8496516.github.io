@@ -19,11 +19,6 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
 
-      - name: Installing Dependencies
-        run: yarn install
-      
-      - name: Running Lint
-        run: yarn lint
-      
-      - name: Running Test
-        run: yarn test
+      - run: npm install
+      - run: npm test
+      - run: npm run build
