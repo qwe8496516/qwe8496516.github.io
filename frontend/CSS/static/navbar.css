@@ -1,0 +1,22 @@
+.icon , .icon2{
+    color: rgb(58, 35, 11);
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+.icon:hover{
+    color: rgb(134, 83, 33);
+    background-color: rgb(204, 195, 189);
+}
+
+
+.icon2{
+    margin: 0px -35px;
+}
+
+.icon2:hover{
+    color: rgb(134, 83, 33);
+    background-color: rgb(204, 195, 189);
+}

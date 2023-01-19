@@ -1,8 +1,3 @@
-.mask1, .mask2{
-    color: rgb(0, 0, 0);
-    text-shadow: rgba(0, 0, 0, 1);
-}
-
 .mask1{
     width: auto;
     height: 420px;
@@ -30,8 +25,8 @@
     height: 100%;
     max-width: 420px;
     display: block;
-    background-size: 50%;
-    position: absolute;
+    background-size: 100%;
+    position: relative;
     top: 89.5px;
     z-index: 0;
 }
@@ -42,8 +37,8 @@
     height: 100%;
     max-width: 420px;
     display: block;
-    background-size: 50%;
-    position: absolute;
+    background-size: 100%;
+    position: relative;
     top: 89.5px;
     z-index: 0;
 }
